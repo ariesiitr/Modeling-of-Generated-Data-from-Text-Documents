@@ -17,10 +17,13 @@
 
 <p align="justify">Initially the vectors are masked, gradients are defined and then gradient norm scaling is done. After this, generator and discriminator are defined.</p>
 <p align="justify">The generator contains two fully connected ReLU layers and a final sigmoid layer. The discriminator has one leaky ReLU layer and it linearly maps input vector to input space.</p>
+<p align="justify">The basic representation of the full model is shown below:</p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/76239328/168326987-1f4afa71-4f38-4e70-aea4-6fb10d686201.png"/><br>
 <i>GAN Layout</i>
+
+ **Z** is a noise vector, which is passed through the generator **G** and produces a vector which is size of the **vocabulary**. We then pass either this generated vector or a sampled bag of words vector from the data(x) to our denoising **autoencoder discriminator D**. This vector is masked with noise C, mapped into lower dimensional space by the encoder, mapped back into the data space by the decoder and then finally the loss is taken as the **mean squared error** between the input to the discriminator and the reconstruction. We can also have the encoded representation (h) for any input document.
 </p>
 
 ### Training
