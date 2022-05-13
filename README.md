@@ -20,7 +20,7 @@
 
 <p align="justify">The generator contains two fully connected ReLU layers and a final sigmoid layer. The discriminator has one leaky ReLU layer and it linearly maps input vector to input space.</p>
 
-<p align="centre">
+<p align="center">
 <img src="https://user-images.githubusercontent.com/76239328/168326987-1f4afa71-4f38-4e70-aea4-6fb10d686201.png"/><br>
 <i>GAN Layout</i>
 </p>
@@ -31,12 +31,12 @@
 
 ## Training validation and evaluation
 
-<p align="centre">
+<p align="center">
 <img src="https://user-images.githubusercontent.com/76239328/168326653-a0770186-8131-4315-b332-2d60d66e2f4e.png"/><br>
 <i>Discriminator and Generator Losses</i><br>
 </p>
 
-<p align="centre">
+<p align="center">
 <img src="https://user-images.githubusercontent.com/76239328/168326762-b1868d36-6d80-42f1-9106-c05a7914013f.png"/><br>
 <i>Validation accuracy</i>
 </p>
