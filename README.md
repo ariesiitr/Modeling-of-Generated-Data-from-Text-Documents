@@ -1,5 +1,5 @@
 # Modeling of Generated Data from Text Documents
-**-Deep generative modelling of text documents using GANs and NLP.**
+##-Deep generative modelling of text documents using GANs and NLP.**
 
 ### Motivation
 
@@ -21,14 +21,14 @@
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/76239328/168326987-1f4afa71-4f38-4e70-aea4-6fb10d686201.png"/><br>
-<i>GAN Layout</i>
+<i>GAN Layout</i></p>
 
- **Z** is a noise vector, which is passed through the generator **G** and produces a vector which is size of the **vocabulary**. We then pass either this generated vector or a sampled bag of words vector from the data(x) to our denoising **autoencoder discriminator D**. This vector is masked with noise C, mapped into lower dimensional space by the encoder, mapped back into the data space by the decoder and then finally the loss is taken as the **mean squared error** between the input to the discriminator and the reconstruction. We can also have the encoded representation (h) for any input document.
+<p align="justify"><b>Z</b> is a noise vector, which is passed through the generator <b>G</b> and produces a vector which is size of the <b>vocabulary</b>. We then pass either this generated vector or a sampled bag of words vector from the data(x) to our denoising <b>autoencoder discriminator D</b>. This vector is masked with noise C, mapped into lower dimensional space by the encoder, mapped back into the data space by the decoder and then finally the loss is taken as the <b>mean squared error</b> between the input to the discriminator and the reconstruction. We can also have the encoded representation (h) for any input document.
 </p>
 
 ### Training
 
-<p align="justify">For training, the input dataset and model output directories are passed to the **train** function. The training data is first divided into mini batches and these mini batches are used for training. Two copies of the generator are created with one network taking the real sample as input from a mini batch and the other taking the generated samples as input. The update to the discriminator and generator is done separately and at each update, we generate a new noise vector to pass to the generator, and a new noise mask for the denoising autoencoder (the same noise mask is used for each input in the batch). The training was carried on for 10000 steps. </p>
+<p align="justify">For training, the input dataset and model output directories are passed to the <b>train</b> function. The training data is first divided into mini batches and these mini batches are used for training. Two copies of the generator are created with one network taking the real sample as input from a mini batch and the other taking the generated samples as input. The update to the discriminator and generator is done separately and at each update, we generate a new noise vector to pass to the generator, and a new noise mask for the denoising autoencoder (the same noise mask is used for each input in the batch). The training was carried on for 10000 steps. </p>
 
 ### Training validation and evaluation
 
