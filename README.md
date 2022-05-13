@@ -70,6 +70,15 @@ python -c "import nltk; nltk.download('punkt')"
 * One of the improvements that could be made is to select a better dataset to improve the accuracy. 
 * Instead of using batch normalisation, spectral normalisation can be used which can stabilise the training of our discriminator.
 
+## Scripts
+
+* 20newsgroups.vocab: This is used to create a vocabulary for natural language processing.
+* vectors.py: This script is used to convert the text into vector for preprocessing.
+* preprocess.py: This script returns the text after tokenization, stemming and lemmatization and finally converts it to a vector.
+* train.py: This script is used to train the next set of data and updates the generator and discriminator separately.
+* evaluate.py: This script breaks the validation dataset into pouches and sets the various parameters.
+* test_evaluate.py: This script is used to compare the output of the parameterized dataset with real values and find the error.
+
 ## Team members
 * [Aryan Rajput](https://github.com/AryanRajput2083)
 * [Milly Sharma](https://github.com/milly710)
