@@ -7,11 +7,11 @@
 
 ## Requirements
 
-<p align="justify">*nltk
-*numpy
-*scikit-learn
-*sklearn
-*tensorflow</p>
+* nltk
+* numpy
+* scikit-learn
+* sklearn
+* tensorflow
 
 ## Dataset
 
