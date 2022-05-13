@@ -86,6 +86,10 @@ python -c "import nltk; nltk.download('punkt')"
 * [Deepak Sharma](https://github.com/deep0505sharma)
 * [Shreya Attri](https://github.com/Shreya003)
 
+## Mentors
+* [Agrim Agrawal](https://github.com/Agrim01)
+* [Mohit Goyal](https://github.com/mohit5075)
+
 ## References
 * https://www.ibm.com/cloud/learn/data-modeling#:~:text=Data%20modeling%20is%20the%20process,between%20data%20points%20and%20structures
 * https://arxiv.org/abs/1612.09122
