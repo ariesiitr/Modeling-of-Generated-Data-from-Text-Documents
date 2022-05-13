@@ -31,7 +31,7 @@ python -c "import nltk; nltk.download('punkt')"
 * **vectors.py:** This script is used to convert the text into vector for preprocessing.
 * **preprocess.py:** This script returns the text after tokenization, stemming and lemmatization and finally converts it to a vector.
 * **train.py:** This script is used to train the next set of data and updates the generator and discriminator separately.
-* **evaluate.py:** This script breaks the validation dataset into pouches and sets the various parameters.
+* **evaluate.py:** This script breaks the validation dataset into epouches and sets the various parameters.
 * **test_evaluate.py:** This script is used to compare the output of the parameterized dataset with real values and find the error.
 
 ## Dataset
