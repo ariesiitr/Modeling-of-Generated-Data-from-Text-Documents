@@ -7,12 +7,23 @@
 
 ## Requirements
 
+* Python 3.7
 * nltk
 * numpy
 * scikit-learn
 * sklearn
 * tensorflow
+* tf_slim
+* pandas
 * unittest
+* argparse
+* punkt
+
+The requirements can be installed by:
+```bash
+pip install -r requirements.txt
+python -c "import nltk; nltk.download('punkt')"
+```
 
 ## Dataset
 
