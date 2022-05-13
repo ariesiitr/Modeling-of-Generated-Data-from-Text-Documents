@@ -3,11 +3,11 @@
 
 ### Motivation
 
-<p align="justify">In this modern day and age, a large amount of data is collected everyday. With this ever increasing data, it has become more and more difficult to manually process the data and get the desired information. Topic modelling provides us with a method to organise, understand and summarise large amounts of data. It does this by finding various patterns in the given data. With this project, our main goal was to create a GAN model that can successfully **classify documents based on generated text**.</p>
+<p align="justify">In this modern day and age, a large amount of data is collected everyday. With this ever increasing data, it has become more and more difficult to manually process the data and get the desired information. Topic modelling provides us with a method to organise, understand and summarise large amounts of data. It does this by finding various patterns in the given data. With this project, our main goal was to create a GAN model that can successfully <b>classify documents based on generated text</b>.</p>
 
 ### Dataset
 
-<p align="justify">The dataset used is the **20newsgroups** which comprises of 18828 newsgroups posts on 20 topics. All the messages on the newgroups were merged under their respective titles and all the titles from the 20 different topics were merged into a single file. This file was used as the dataset for the model. The dataset consists of two columns: Label and Document.</p>
+<p align="justify">The dataset used is the <b>20newsgroups</b> which comprises of 18828 newsgroups posts on 20 topics. All the messages on the newgroups were merged under their respective titles and all the titles from the 20 different topics were merged into a single file. This file was used as the dataset for the model. The dataset consists of two columns: Label and Document.</p>
 
 ### Data preprocessing
 
