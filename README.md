@@ -25,6 +25,15 @@ pip install -r requirements.txt
 python -c "import nltk; nltk.download('punkt')"
 ```
 
+## Scripts
+
+* **20newsgroups.vocab:** This is used to create a vocabulary for natural language processing.
+* **vectors.py:** This script is used to convert the text into vector for preprocessing.
+* **preprocess.py:** This script returns the text after tokenization, stemming and lemmatization and finally converts it to a vector.
+* **train.py:** This script is used to train the next set of data and updates the generator and discriminator separately.
+* **evaluate.py:** This script breaks the validation dataset into pouches and sets the various parameters.
+* **test_evaluate.py:** This script is used to compare the output of the parameterized dataset with real values and find the error.
+
 ## Dataset
 
 <p align="justify">The dataset used is the <b>20newsgroups</b> which comprises of 18828 newsgroups posts on 20 topics. All the messages on the newgroups were merged under their respective titles and all the titles from the 20 different topics were merged into a single file. This file was used as the dataset for the model. The dataset consists of two columns: Label and Document.</p>
@@ -69,15 +78,6 @@ python -c "import nltk; nltk.download('punkt')"
 
 * One of the improvements that could be made is to select a better dataset to improve the accuracy. 
 * Instead of using batch normalisation, spectral normalisation can be used which can stabilise the training of our discriminator.
-
-## Scripts
-
-* 20newsgroups.vocab: This is used to create a vocabulary for natural language processing.
-* vectors.py: This script is used to convert the text into vector for preprocessing.
-* preprocess.py: This script returns the text after tokenization, stemming and lemmatization and finally converts it to a vector.
-* train.py: This script is used to train the next set of data and updates the generator and discriminator separately.
-* evaluate.py: This script breaks the validation dataset into pouches and sets the various parameters.
-* test_evaluate.py: This script is used to compare the output of the parameterized dataset with real values and find the error.
 
 ## Team members
 * [Aryan Rajput](https://github.com/AryanRajput2083)
