@@ -42,8 +42,8 @@
 <i>Validation accuracy</i>
 </p>
 
-<p align="justify">The final validation accuracy at the end of the training was 59.6%.
-The testing accuracy was 57%.</p>
+<p align="justify">The final validation accuracy at the end of the training was <b>59.6%.</b>
+  The testing accuracy was <b>57%.</b></p>
 
 ### Future improvements
 * One of the improvements that could be made is to select a better dataset to improve the accuracy. 
