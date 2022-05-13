@@ -1,6 +1,6 @@
 # Modeling of Generated Data from Text Documents
 
-<p align="justify">**Deep generative modelling of text documents using GANs and NLP.**</p>
+**Deep generative modelling of text documents using GANs and NLP.**
 
 ## Motivation
 
